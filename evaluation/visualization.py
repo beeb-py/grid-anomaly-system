@@ -4,6 +4,9 @@ import plotly.graph_objects as go
 
 
 def plot_anomalies(df):
+
+    df = df.sort_values("timestamp")
+
     fig = go.Figure()
 
     # Normal signal

@@ -71,6 +71,7 @@ def build_features(df: pd.DataFrame, window: int = 4, verbose: bool = True) -> p
     # 7. Reset index
     # -------------------------
     df = df.reset_index()
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
 
     if verbose:
         print(f"Output shape: {df.shape}")
