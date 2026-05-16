@@ -15,7 +15,7 @@ This project implements:
 
 # Dashboard Preview
 
-TBD
+![Dashboard](assets/dashboard.png)
 
 ---
 
@@ -82,7 +82,7 @@ Built with Gradio:
 
 # System Architecture
 
-TBD
+![Architecture](assets/architecture.png)
 
 Pipeline overview:
 
@@ -119,13 +119,13 @@ Gradio Dashboard
 
 ## Isolation Forest
 
-TBD
+![Isolation Forest](assets/iforest_results.png)
 
 ---
 
 ## LSTM Autoencoder
 
-TBD
+![LSTM](assets/lstm_results.png)
 
 ---
 
